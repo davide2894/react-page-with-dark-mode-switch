@@ -1,10 +1,12 @@
-import './App.scss';
-import Sample from '../sample/Sample';
+import "./App.scss";
+import Navbar from "../navbar/Navbar";
+import Main from "../main/Main" ;
 
 function App() {
   return (
     <div className="app">
-      <Sample/>
+      <Navbar darkMode=""/>
+      <Main darkMode=""/>
     </div>
   );
 }

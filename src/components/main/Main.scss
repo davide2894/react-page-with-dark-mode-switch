@@ -1,38 +1,41 @@
 @import "../../shared";
 
-main {
+.main {
     padding: 57px 27px;
-    background-image: url("./images/react-icon-light.png"); 
+    background-image: url("../../assets/icons/react-background-icon_light.svg"); 
     background-repeat: no-repeat;
     background-position: right center;
     flex: 1 1 auto;
     background-color: white;
     color: #2B283A;
+    text-align: left;
+
+    &--dark {
+        background-image: url("../../assets/icons/react-background-icon_dark.svg"); 
+        background-color: #282D35;
+        color: white;    
+    }
+ 
+    &__title {
+        font-size: rem(25px);
+        font-weight: 700;
+        margin: 20px auto;
+    }
 }
 
-main.dark {
-    background-image: url("./images/react-icon-dark.png"); 
-    background-color: #282D35;
-    color: white;    
-}
-
-.main--title {
-    margin: 0;
-    font-size: 39px;
-    letter-spacing: -0.05em;
-}
-
-.main--facts {
+.facts {
     margin-top: 46px;
     max-width: 400px;
-}
+    list-style: disc;
 
-.main--facts > li {
-    line-height: 19px;
-    padding-block: 10px;
-}
+    &__li {
+        line-height: 19px;
+        padding-block: 10px;
+        margin-left: 20px;
 
-.main--facts > li::marker {
-    font-size: 1.4rem;
-    color: #61DAFB;
+        &::marker {
+            font-size: 1.4rem;
+            color: #61DAFB;
+        }
+    }
 }
