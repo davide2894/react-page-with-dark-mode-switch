@@ -14,7 +14,8 @@ function Navbar(props) {
       />
       
       <div 
-          className="toggler" 
+          className="toggler"
+          onClick={props.togglerClickHandler}
       >
           <p className="toggler__light">Light</p>
           <div 
