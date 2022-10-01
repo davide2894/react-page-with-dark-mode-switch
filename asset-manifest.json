@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/react-page-with-dark-mode-switch/static/css/main.79bced8b.css",
+    "main.js": "/react-page-with-dark-mode-switch/static/js/main.da758568.js",
+    "static/js/787.eda98251.chunk.js": "/react-page-with-dark-mode-switch/static/js/787.eda98251.chunk.js",
+    "static/media/logo-icon.svg": "/react-page-with-dark-mode-switch/static/media/logo-icon.1d033329dda83343d477ae871ff73743.svg",
+    "static/media/react-background-icon_light.svg": "/react-page-with-dark-mode-switch/static/media/react-background-icon_light.81541b89870465607001.svg",
+    "static/media/react-background-icon_dark.svg": "/react-page-with-dark-mode-switch/static/media/react-background-icon_dark.816634d4e27f9024f2a7.svg",
+    "index.html": "/react-page-with-dark-mode-switch/index.html",
+    "main.79bced8b.css.map": "/react-page-with-dark-mode-switch/static/css/main.79bced8b.css.map",
+    "main.da758568.js.map": "/react-page-with-dark-mode-switch/static/js/main.da758568.js.map",
+    "787.eda98251.chunk.js.map": "/react-page-with-dark-mode-switch/static/js/787.eda98251.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.79bced8b.css",
+    "static/js/main.da758568.js"
+  ]
+}
